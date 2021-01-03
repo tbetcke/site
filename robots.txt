@@ -1,0 +1,4 @@
+Sitemap: https://timobetcke.me/sitemapindex.xml
+
+User-Agent: *
+Host: timobetcke.me
