@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Timo Betcke"  # (translatable)
-BLOG_TITLE = "Timo Betcke's Site"  # (translatable)
+BLOG_TITLE = "Random thoughts, Maths, and Coding"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://timobetcke.me/"
@@ -25,7 +25,7 @@ SITE_URL = "https://timobetcke.me/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://timobetcke.me/"
 BLOG_EMAIL = "t.betcke@ucl.ac.uk"
-BLOG_DESCRIPTION = "Random thoughts, Maths, and Coding"  # (translatable)
+BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -143,7 +143,6 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
 #        ("/rss.xml", "RSS feed"),
-        ("/pages/about/", "About Me"),
     ),
 }
 
@@ -155,7 +154,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootblog"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -173,14 +172,14 @@ THEME_COLOR = '#5670d4'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
+        'featured_large': True,
         # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
+        'featured_small': True,
         # Show featured posts on mobile.
         'featured_on_mobile': True,
         # Show image in `featured_large` on mobile.
         # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
+        'featured_large_image_on_mobile': False,
         # Strip HTML from featured post text.
         'featured_strip_html': False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
@@ -1390,8 +1389,21 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
-
+# GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {'blog_sidebar': """\
+<div class="sidebar-module sidebar-module-inset">
+  <h4>About Me</h4>
+  <p>I am a Professor of Computational Mathematics, working in the <a href="https://ucl.ac.uk/maths">Department of Mathematics</a> at <a href="https://ucl.ac.uk">University College London</a>.</p>
+</div>
+<div class="sidebar-module">
+  <h4>Links</h4>
+  <ol class="list-unstyled">
+    <li><a href="https://scholar.google.com/citations?hl=en&user=HCAkiTYAAAAJ&view_op=list_works&sortby=pubdate">Publications on Google Scholar</a></li>
+    <li><a href="https://orcid.org/0000-0002-3323-2110">ORCID Entry</a></li>
+    <li><a href="https://twitter.com/BetckeTimo">Follow me on Twitter</a></li>
+   </ol>
+</div>
+"""}
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
