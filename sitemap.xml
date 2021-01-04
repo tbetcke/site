@@ -7,26 +7,30 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://timobetcke.me/</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://timobetcke.me/2021/</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://timobetcke.me/archive.html</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://timobetcke.me/categories/</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://timobetcke.me/categories/sycl/</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://timobetcke.me/posts/in-conversation-with-timo-betcke/</loc>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://timobetcke.me/posts/sycl-software-workshop-7-8-january-2021/</loc>
-  <lastmod>2021-01-03T23:21:00Z</lastmod>
+  <lastmod>2021-01-04T00:36:00Z</lastmod>
  </url>
 </urlset>

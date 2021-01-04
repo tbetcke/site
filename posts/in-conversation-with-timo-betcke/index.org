@@ -1,0 +1,13 @@
+#+BEGIN_COMMENT
+.. title: In conversation with Timo Betcke
+.. slug: in-conversation-with-timo-betcke
+.. date: 2021-01-03 23:11:43 UTC
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+As part of a seminar I gave before Christmas Tu Delft performed an interview with me, talking about my career, thoughts on the field and tips for PhD students. The full text can be found [[https://www.tudelft.nl/en/tu-delft-institute-for-computational-science-and-engineering/events/in-conversation-with/timo-betcke/][here]].
